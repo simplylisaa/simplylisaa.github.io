@@ -537,3 +537,28 @@ body.dark-mode .bio-content {
   padding: 0;
   max-width: 95vw;
 }
+
+/* Highlighted points */
+.highlight-point {
+  border: 1.5px solid #dba8c8;
+  background: #fff8fc;
+  color: #2e2e2e;
+  box-shadow: 0 0 6px rgba(219, 168, 200, 0.6);
+  padding: 12px 18px;
+}
+
+.highlight-point strong {
+  color: #a34b84;
+}
+
+/* Dark mode version */
+body.dark-mode .highlight-point {
+  border-color: #d4a5c7;
+  background: #3d2e3d;
+  color: #f0e6ef;
+  box-shadow: 0 0 8px rgba(212, 165, 199, 0.5);
+}
+
+body.dark-mode .highlight-point strong {
+  color: #f1cce3;
+}
